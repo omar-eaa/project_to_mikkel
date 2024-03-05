@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto ;
+    background-color: rgb(182, 138, 58);
+    color: white;
+    width: 40%;
+    height:20rem;
+    margin-top: 2%;
+    border-radius: 10px;
+    gap: 2rem;
+}
+
+
+
+.profil-img {
+    width: 150px; /* Adjust width as needed */
+    border-radius: 50%; /* Make the image round */
+    border: 2px solid #ccc; /* Add a border */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    margin-left: 10%; 
+    margin-right: 50%; ;
+
+}
+.h1-p{
+    margin-top: 4rem;
+}
+.h1-p h1{
+    font-size: 3rem;
+
+}
+.h1-p p{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+span{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(159, 82, 24);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+   
+    margin-left: 10%;
+    width: 50%;
+}
+
+
+.image{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin-top: 3%;
+    margin-left: 2rem;
+    border-radius: 20%;
+    margin-bottom: 7rem;
+}
+
+.image img{
+    border-radius: 20px;
+
+}

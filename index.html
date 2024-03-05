@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<section class="container">
+
+    <div class="profil">
+        <img class="profil-img" src="./img/profil-img.jpeg" alt="">
+    </div>
+
+    <div class="h1-p">
+        <h1>Hello, Mikkel </h1>
+           <br>
+           
+        <p>Jeg har taget nogle fantastiske billeder fra præsentationen om   
+            Frontend-udvikler. Klik venligst på
+             knappen nedenfor for at se dem. 
+        </p>
+
+        <span onclick="removeTemplate()">CLik Me!!</span>
+
+
+        
+    </div>
+
+ </section>
+
+ <!-- animate__delay-1s -->
+ <template id="imageTemplate">
+    <div class="animate__animated animate__backInUp ">
+        <section class="image">
+            <img src="img/img1.jpeg" alt="">
+            <img src="img/img2.jpeg" alt="">
+            <img src="img/img3.jpeg" alt="">
+            <img src="img/img4.jpeg" alt="">
+         </section>
+     </div>
+</template>
+ 
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
